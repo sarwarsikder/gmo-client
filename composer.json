@@ -1,0 +1,19 @@
+{
+    "name": "kcsl/gmo-client",
+    "description": "GMO PG Payments Clients.",
+    "type": "library",
+    "license": "kcsl",
+    "autoload": {
+        "psr-4": {
+            "Kcsl\\GmoClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sarwar Sikder",
+            "email": "sarwardevcs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
