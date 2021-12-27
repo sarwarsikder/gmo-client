@@ -2,7 +2,7 @@
     "name": "kcsl/gmo-client",
     "description": "GMO PG Payments Clients.",
     "type": "library",
-    "license": "kcsl",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Kcsl\\GmoClient\\": "src/"
