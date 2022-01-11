@@ -1,7 +1,12 @@
 <?php
-require_once 'com/gmo_pg/client/output/EntryExecTranFamipayOutput.php';
+namespace GmoPG\com\gmo_pg\client\tran;
+use GmoPG\com\gmo_pg\client\output\EntryExecTranFamipayOutput;
+use GmoPG\com\gmo_pg\client\tran\EntryTranFamipay;
+use GmoPG\com\gmo_pg\client\tran\ExecTranFamipay;
+
+/*require_once 'com/gmo_pg/client/output/EntryExecTranFamipayOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranFamipay.php';
-require_once 'com/gmo_pg/client/tran/ExecTranFamipay.php';
+require_once 'com/gmo_pg/client/tran/ExecTranFamipay.php';*/
 /**
  * <b>FamiPay登録・決済一括実行　実行クラス</b>
  *

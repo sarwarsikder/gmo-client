@@ -1,8 +1,15 @@
 <?php
-require_once ('com/gmo_pg/client/common/Cryptgram.php');
+namespace GmoPG\com\gmo_pg\client\tran;
+
+use GmoPG\com\gmo_pg\client\common\Cryptgram;
+use GmoPG\com\gmo_pg\client\common\GPayException;
+use GmoPG\com\gmo_pg\client\output\DocomoIncreaseOutput;
+use GmoPG\com\gmo_pg\client\tran\BaseTran;
+
+/*require_once ('com/gmo_pg/client/common/Cryptgram.php');
 require_once ('com/gmo_pg/client/common/GPayException.php');
 require_once ('com/gmo_pg/client/output/DocomoIncreaseOutput.php');
-require_once ('com/gmo_pg/client/tran/BaseTran.php');
+require_once ('com/gmo_pg/client/tran/BaseTran.php');*/
 /**
  * <b>ドコモケータイ払い決済増額　実行クラス</b>
  *

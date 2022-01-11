@@ -1,5 +1,10 @@
 <?php
-require_once ('com/gmo_pg/client/input/BaseInput.php');
+
+namespace GmoPG\com\gmo_pg\client\input;
+
+use GmoPG\com\gmo_pg\client\input\BaseInput;
+
+#require_once 'com/gmo_pg/client/input/BaseInput.php';
 /**
  * <b>自動売上自動売上結果照会　入力パラメータクラス</b>
  *

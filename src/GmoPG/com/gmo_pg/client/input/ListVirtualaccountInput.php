@@ -1,5 +1,10 @@
 <?php
-require_once ('com/gmo_pg/client/input/BaseInput.php');
+
+namespace GmoPG\com\gmo_pg\client\input;
+
+use GmoPG\com\gmo_pg\client\input\BaseInput;
+
+#require_once 'com/gmo_pg/client/input/BaseInput.php';
 /**
  * <b>銀行振込(バーチャル口座)専有口座一覧取得　入力パラメータクラス</b>
  *

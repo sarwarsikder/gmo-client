@@ -1,4 +1,5 @@
 <?php
+namespace GmoPG\com\gmo_pg\client\tran;
 require_once ('com/gmo_pg/client/output/SearchCardReverseOutput.php');
 require_once ('com/gmo_pg/client/tran/BaseTran.php');
 /**

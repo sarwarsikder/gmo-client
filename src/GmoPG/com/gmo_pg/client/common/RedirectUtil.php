@@ -1,7 +1,11 @@
 <?php
 namespace  GmoPG\com\gmo_pg\client\common;
-require_once 'com/gmo_pg/client/common/GPayException.php';
-require_once 'com/gmo_pg/client/common/ConnectUrlMap.php';
+
+use GmoPG\com\gmo_pg\client\common\GPayException;
+use GmoPG\com\gmo_pg\client\common\ConnectUrlMap;
+
+/*require_once 'com/gmo_pg/client/common/GPayException.php';
+require_once 'com/gmo_pg/client/common/ConnectUrlMap.php';*/
 
 /**
  * <b>リダイレクトページ生成</b>

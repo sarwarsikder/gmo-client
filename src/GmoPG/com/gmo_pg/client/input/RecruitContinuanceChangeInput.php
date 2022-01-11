@@ -1,5 +1,10 @@
 <?php
-require_once ('com/gmo_pg/client/input/BaseInput.php');
+
+namespace GmoPG\com\gmo_pg\client\input;
+
+use GmoPG\com\gmo_pg\client\input\BaseInput;
+
+#require_once 'com/gmo_pg/client/input/BaseInput.php';
 /**
  * <b>リクルートかんたん支払い継続課金金額変更　入力パラメータクラス</b>
  *

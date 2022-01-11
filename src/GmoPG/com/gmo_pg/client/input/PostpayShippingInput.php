@@ -1,5 +1,10 @@
 <?php
-require_once ('com/gmo_pg/client/input/BaseInput.php');
+
+namespace GmoPG\com\gmo_pg\client\input;
+
+use GmoPG\com\gmo_pg\client\input\BaseInput;
+
+#require_once 'com/gmo_pg/client/input/BaseInput.php';
 /**
  * <b>PS後払い請求書印字　入力パラメータクラス</b>
  *

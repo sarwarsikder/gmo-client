@@ -1,7 +1,10 @@
 <?php
 namespace GmoPG\com\gmo_pg\client\output;
-require_once 'com/gmo_pg/client/output/EntryTranPaypayAcceptOutput.php';
-require_once 'com/gmo_pg/client/output/ExecTranPaypayAcceptOutput.php';
+use GmoPG\com\gmo_pg\client\output\EntryTranPaypayAcceptOutput;
+use GmoPG\com\gmo_pg\client\output\ExecTranPaypayAcceptOutput;
+
+/*require_once 'com/gmo_pg/client/output/EntryTranPaypayAcceptOutput.php';
+require_once 'com/gmo_pg/client/output/ExecTranPaypayAcceptOutput.php';*/
 /**
  * <b>PayPay随時(利用承諾)登録・決済一括実行  出力パラメータクラス</b>
  *

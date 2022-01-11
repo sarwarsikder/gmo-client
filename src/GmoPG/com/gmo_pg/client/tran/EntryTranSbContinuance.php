@@ -1,8 +1,16 @@
 <?php
-require_once ('com/gmo_pg/client/common/Cryptgram.php');
-require_once ('com/gmo_pg/client/common/GPayException.php');
-require_once ('com/gmo_pg/client/output/EntryTranSbContinuanceOutput.php');
-require_once ('com/gmo_pg/client/tran/BaseTran.php');
+namespace GmoPG\com\gmo_pg\client\tran;
+
+use GmoPG\com\gmo_pg\client\common\Cryptgram;
+use GmoPG\com\gmo_pg\client\common\GPayException;
+use GmoPG\com\gmo_pg\client\output\EntryTranSbContinuanceOutput;
+use GmoPG\com\gmo_pg\client\tran\BaseTran;
+
+/*require_once('com/gmo_pg/client/common/Cryptgram.php');
+require_once('com/gmo_pg/client/common/GPayException.php');
+require_once('com/gmo_pg/client/output/EntryTranSbContinuanceOutput.php');
+require_once('com/gmo_pg/client/tran/BaseTran.php');*/
+
 /**
  * <b>ソフトバンク継続取引登録　実行クラス</b>
  *
@@ -11,33 +19,37 @@ require_once ('com/gmo_pg/client/tran/BaseTran.php');
  * @see tranPackageInfo.php
  * @author GMO PaymentGateway
  */
-class EntryTranSbContinuance extends BaseTran {
+class EntryTranSbContinuance extends BaseTran
+{
 
-	/**
-	 * コンストラクタ
-	 */
-	public function __construct() {
-	    parent::__construct();
-	}
+    /**
+     * コンストラクタ
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
-	/**
-	 * 取引登録を実行する
-	 *
-	 * @param  EntryTranSbContinuanceInput $input  入力パラメータ
-	 * @return EntryTranSbContinuanceOutput $output 出力パラメータ
-	 * @exception GPayException
-	 */
-	public function exec(&$input) {
+    /**
+     * 取引登録を実行する
+     *
+     * @param EntryTranSbContinuanceInput $input 入力パラメータ
+     * @return EntryTranSbContinuanceOutput $output 出力パラメータ
+     * @exception GPayException
+     */
+    public function exec(&$input)
+    {
 
         // 接続しプロトコル呼び出し・結果取得
         $resultMap = $this->callProtocol($input->toString());
-	    // 戻り値がnullの場合、nullを戻す
+        // 戻り値がnullの場合、nullを戻す
         if (is_null($resultMap)) {
-		    return null;
+            return null;
         }
 
         // EntryTranSbContinuanceOutput作成し、戻す
-	    return new EntryTranSbContinuanceOutput($resultMap);
-	}
+        return new EntryTranSbContinuanceOutput($resultMap);
+    }
 }
+
 ?>

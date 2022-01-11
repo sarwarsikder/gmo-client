@@ -1,7 +1,12 @@
 <?php
-require_once 'com/gmo_pg/client/output/EntryExecTranRecruitContinuanceOutput.php';
+namespace GmoPG\com\gmo_pg\client\tran;
+use GmoPG\com\gmo_pg\client\output\EntryExecTranRecruitContinuanceOutput;
+use GmoPG\com\gmo_pg\client\tran\EntryTranRecruitContinuance;
+use GmoPG\com\gmo_pg\client\tran\ExecTranRecruitContinuance;
+
+/*require_once 'com/gmo_pg/client/output/EntryExecTranRecruitContinuanceOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranRecruitContinuance.php';
-require_once 'com/gmo_pg/client/tran/ExecTranRecruitContinuance.php';
+require_once 'com/gmo_pg/client/tran/ExecTranRecruitContinuance.php';*/
 /**
  * <b>リクルートかんたん支払い継続課金登録・決済一括実行　実行クラス</b>
  *

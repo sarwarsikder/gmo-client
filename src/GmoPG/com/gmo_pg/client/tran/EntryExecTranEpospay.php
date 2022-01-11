@@ -1,7 +1,12 @@
 <?php
-require_once 'com/gmo_pg/client/output/EntryExecTranEpospayOutput.php';
+namespace GmoPG\com\gmo_pg\client\tran;
+use GmoPG\com\gmo_pg\client\output\EntryExecTranEpospayOutput;
+use GmoPG\com\gmo_pg\client\tran\EntryTranEpospay;
+use GmoPG\com\gmo_pg\client\tran\ExecTranEpospay;
+
+/*require_once 'com/gmo_pg/client/output/EntryExecTranEpospayOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranEpospay.php';
-require_once 'com/gmo_pg/client/tran/ExecTranEpospay.php';
+require_once 'com/gmo_pg/client/tran/ExecTranEpospay.php';*/
 /**
  * <b>エポスかんたん決済登録・決済一括実行　実行クラス</b>
  *

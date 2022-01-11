@@ -1,6 +1,13 @@
 <?php
-require_once ('com/gmo_pg/client/output/DeleteMemberOutput.php');
-require_once ('com/gmo_pg/client/tran/BaseTran.php');
+namespace GmoPG\com\gmo_pg\client\tran;
+
+use GmoPG\com\gmo_pg\client\common\Cryptgram;
+use GmoPG\com\gmo_pg\client\common\GPayException;
+use GmoPG\com\gmo_pg\client\output\DeleteMemberOutput;
+use GmoPG\com\gmo_pg\client\tran\BaseTran;
+
+/*require_once ('com/gmo_pg/client/output/DeleteMemberOutput.php');
+require_once ('com/gmo_pg/client/tran/BaseTran.php');*/
 /**
  * <b>会員削除　実行クラス</b>
  *

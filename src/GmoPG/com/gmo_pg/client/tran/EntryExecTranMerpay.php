@@ -1,4 +1,9 @@
 <?php
+namespace GmoPG\com\gmo_pg\client\tran;
+
+use GmoPG\com\gmo_pg\client\output\EntryExecTranMerpayOutput;
+use GmoPG\com\gmo_pg\client\tran\EntryTranMerpay;
+
 require_once 'com/gmo_pg/client/output/EntryExecTranMerpayOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranMerpay.php';
 require_once 'com/gmo_pg/client/tran/ExecTranMerpay.php';

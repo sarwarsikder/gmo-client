@@ -1,6 +1,10 @@
 <?php
-require_once 'com/gmo_pg/client/input/EntryTranLinepayInput.php';
-require_once 'com/gmo_pg/client/input/ExecTranLinepayInput.php';
+namespace GmoPG\com\gmo_pg\client\input;
+use GmoPG\com\gmo_pg\client\input\EntryTranLinepayInput;
+use GmoPG\com\gmo_pg\client\input\ExecTranLinepayInput;
+
+/*require_once 'com/gmo_pg/client/input/EntryTranLinepayInput.php';
+require_once 'com/gmo_pg/client/input/ExecTranLinepayInput.php';*/
 /**
  * <b>LINE Pay登録・決済一括実行　入力パラメータクラス</b>
  *

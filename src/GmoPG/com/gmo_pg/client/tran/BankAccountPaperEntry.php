@@ -1,8 +1,15 @@
 <?php
-require_once ('com/gmo_pg/client/common/Cryptgram.php');
+namespace GmoPG\com\gmo_pg\client\tran;
+
+use GmoPG\com\gmo_pg\client\common\Cryptgram;
+use GmoPG\com\gmo_pg\client\common\GPayException;
+use GmoPG\com\gmo_pg\client\output\BankAccountPaperEntryOutput;
+use GmoPG\com\gmo_pg\client\tran\BaseTran;
+
+/*require_once ('com/gmo_pg/client/common/Cryptgram.php');
 require_once ('com/gmo_pg/client/common/GPayException.php');
 require_once ('com/gmo_pg/client/output/BankAccountPaperEntryOutput.php');
-require_once ('com/gmo_pg/client/tran/BaseTran.php');
+require_once ('com/gmo_pg/client/tran/BaseTran.php');*/
 /**
  * <b>口座振替ペーパー申込口座登録依頼書データ登録　実行クラス</b>
  *

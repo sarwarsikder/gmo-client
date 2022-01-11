@@ -1,8 +1,16 @@
 <?php
-require_once ('com/gmo_pg/client/common/Cryptgram.php');
-require_once ('com/gmo_pg/client/common/GPayException.php');
-require_once ('com/gmo_pg/client/output/HistoryWebmoneyQuickIdOutput.php');
-require_once ('com/gmo_pg/client/tran/BaseTran.php');
+namespace GmoPG\com\gmo_pg\client\tran;
+
+use GmoPG\com\gmo_pg\client\common\Cryptgram;
+use GmoPG\com\gmo_pg\client\common\GPayException;
+use GmoPG\com\gmo_pg\client\output\HistoryWebmoneyQuickIdOutput;
+use GmoPG\com\gmo_pg\client\tran\BaseTran;
+
+/*require_once('com/gmo_pg/client/common/Cryptgram.php');
+require_once('com/gmo_pg/client/common/GPayException.php');
+require_once('com/gmo_pg/client/output/HistoryWebmoneyQuickIdOutput.php');
+require_once('com/gmo_pg/client/tran/BaseTran.php');*/
+
 /**
  * <b>WebmoneyクイックID利用明細URL取得　実行クラス</b>
  *
@@ -11,33 +19,37 @@ require_once ('com/gmo_pg/client/tran/BaseTran.php');
  * @see tranPackageInfo.php
  * @author GMO PaymentGateway
  */
-class HistoryWebmoneyQuickId extends BaseTran {
+class HistoryWebmoneyQuickId extends BaseTran
+{
 
-	/**
-	 * コンストラクタ
-	 */
-	public function __construct() {
-	    parent::__construct();
-	}
+    /**
+     * コンストラクタ
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
-	/**
-	 * クイックID利用明細URL取得を実行する
-	 *
-	 * @param  HistoryWebmoneyQuickIdInput $input  入力パラメータ
-	 * @return HistoryWebmoneyQuickIdOutput $output 出力パラメータ
-	 * @exception GPayException
-	 */
-	public function exec(&$input) {
+    /**
+     * クイックID利用明細URL取得を実行する
+     *
+     * @param HistoryWebmoneyQuickIdInput $input 入力パラメータ
+     * @return HistoryWebmoneyQuickIdOutput $output 出力パラメータ
+     * @exception GPayException
+     */
+    public function exec(&$input)
+    {
 
         // 接続しプロトコル呼び出し・結果取得
         $resultMap = $this->callProtocol($input->toString());
-	    // 戻り値がnullの場合、nullを戻す
+        // 戻り値がnullの場合、nullを戻す
         if (is_null($resultMap)) {
-		    return null;
+            return null;
         }
 
         // HistoryWebmoneyQuickIdOutput作成し、戻す
-	    return new HistoryWebmoneyQuickIdOutput($resultMap);
-	}
+        return new HistoryWebmoneyQuickIdOutput($resultMap);
+    }
 }
+
 ?>

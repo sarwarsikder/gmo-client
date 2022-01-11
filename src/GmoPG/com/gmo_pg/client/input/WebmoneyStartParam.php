@@ -1,4 +1,6 @@
 <?php
+
+namespace GmoPG\com\gmo_pg\client\input;
 /**
  * <b>Webmoneyリダイレクトページ生成用パラメータホルダー</b>
  *
@@ -11,28 +13,31 @@
  * @version 1.0
  * @created 04-08-2010
  */
-class WebmoneyStartParam {
+class WebmoneyStartParam
+{
 
-	/**
-	 * @var string 取引ID。GMO-PGが払い出した、取引を特定するID
-	 */
-	private $accessId;
+    /**
+     * @var string 取引ID。GMO-PGが払い出した、取引を特定するID
+     */
+    private $accessId;
 
-	/**
-	 * 取引ID取得
-	 * @return string 取引ID
-	 */
-	public function getAccessId() {
-		return $this->accessId;
-	}
+    /**
+     * 取引ID取得
+     * @return string 取引ID
+     */
+    public function getAccessId()
+    {
+        return $this->accessId;
+    }
 
-	/**
-	 * 取引ID設定
-	 *
-	 * @param string $accessId 取引ID
-	 */
-	public function setAccessId($accessId) {
-		$this->accessId = $accessId;
-	}
+    /**
+     * 取引ID設定
+     *
+     * @param string $accessId 取引ID
+     */
+    public function setAccessId($accessId)
+    {
+        $this->accessId = $accessId;
+    }
 
 }

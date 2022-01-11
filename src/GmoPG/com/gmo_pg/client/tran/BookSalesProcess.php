@@ -1,8 +1,15 @@
 <?php
-require_once ('com/gmo_pg/client/common/Cryptgram.php');
+namespace GmoPG\com\gmo_pg\client\tran;
+
+use GmoPG\com\gmo_pg\client\common\Cryptgram;
+use GmoPG\com\gmo_pg\client\common\GPayException;
+use GmoPG\com\gmo_pg\client\output\BookSalesProcessOutput;
+use GmoPG\com\gmo_pg\client\tran\BaseTran;
+
+/*require_once ('com/gmo_pg/client/common/Cryptgram.php');
 require_once ('com/gmo_pg/client/common/GPayException.php');
 require_once ('com/gmo_pg/client/output/BookSalesProcessOutput.php');
-require_once ('com/gmo_pg/client/tran/BaseTran.php');
+require_once ('com/gmo_pg/client/tran/BaseTran.php');*/
 /**
  * <b>実売予約　実行クラス</b>
  *

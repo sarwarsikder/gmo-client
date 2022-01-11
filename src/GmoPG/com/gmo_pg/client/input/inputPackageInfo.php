@@ -1,7 +1,9 @@
 <?php
+
+namespace GmoPG\com\gmo_pg\client\input;
 /**
  * パッケージ input
- * 
+ *
  * <p>
  *  このパッケージは、実行クラス(xxTran)に渡すパラメータの保持クラスが含まれます。
  * 加盟店様は、このパッケージのクラスをインスタンス化し、setterで呼び出しパラメータを設定します。

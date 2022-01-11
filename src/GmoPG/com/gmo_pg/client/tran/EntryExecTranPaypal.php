@@ -1,7 +1,14 @@
 <?php
-require_once 'com/gmo_pg/client/output/EntryExecTranPaypalOutput.php';
+
+namespace GmoPG\com\gmo_pg\client\tran;
+
+use GmoPG\com\gmo_pg\client\output\EntryExecTranPaypalOutput;
+use GmoPG\com\gmo_pg\client\tran\EntryTranPaypal;
+use GmoPG\com\gmo_pg\client\tran\ExecTranPaypal;
+
+/*require_once 'com/gmo_pg/client/output/EntryExecTranPaypalOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranPaypal.php';
-require_once 'com/gmo_pg/client/tran/ExecTranPaypal.php';
+require_once 'com/gmo_pg/client/tran/ExecTranPaypal.php';*/
 
 
 /**
@@ -14,112 +21,119 @@ require_once 'com/gmo_pg/client/tran/ExecTranPaypal.php';
  * @version 1.0
  * @created 12-24-2009 00:00:00
  */
-class EntryExecTranPaypal {
+class EntryExecTranPaypal
+{
 
-	/**
-	 * @var Gmopg_Log ログ
-	 */
-	private $log;
+    /**
+     * @var Gmopg_Log ログ
+     */
+    private $log;
 
-	/**
-	 * @var GPayException 例外
-	 */
-	private $exception;
+    /**
+     * @var GPayException 例外
+     */
+    private $exception;
 
-	/**
-	 * コンストラクタ
-	 */
-	public function __construct() {
-		$this->log = new Gmopg_Log(get_class($this));
-	}
+    /**
+     * コンストラクタ
+     */
+    public function __construct()
+    {
+        $this->log = new Gmopg_Log(get_class($this));
+    }
 
-	/**
-	 * 例外の発生を判定する
-	 *
-	 * @param mixed $target    判定対象
-	 */
-	private function errorTrap(&$target) {
-		if (is_null($target->getException())) {
-			return false;
-		}
-		$this->exception = $target->getException();
-		return true;
-	}
-	/**
-	 * 例外の発生を判定する
-	 *
-	 * @return  boolean 判定結果(true=エラーアリ)
-	 */
-	public function isExceptionOccured() {
-		return false == is_null($this->exception);
-	}
+    /**
+     * 例外の発生を判定する
+     *
+     * @param mixed $target 判定対象
+     */
+    private function errorTrap(&$target)
+    {
+        if (is_null($target->getException())) {
+            return false;
+        }
+        $this->exception = $target->getException();
+        return true;
+    }
 
-	/**
-	 * 例外を返す
-	 *
-	 * @return  GPayException 例外
-	 */
-	public function &getException() {
-		return $this->exception;
-	}
+    /**
+     * 例外の発生を判定する
+     *
+     * @return  boolean 判定結果(true=エラーアリ)
+     */
+    public function isExceptionOccured()
+    {
+        return false == is_null($this->exception);
+    }
 
-	/**
-	 * Paypal取引登録・決済を実行する
-	 *
-	 * @param EntryExecTranPaypalInput $input    Paypal取引登録・決済入力パラメータ
-	 * @return  EntryExecTranPaypalOutput Paypal取引登録・決済出力パラメータ
-	 * @exception GPayException
-	 */
-	public function exec(&$input) {
-		// Paypal取引登録入力パラメータを取得
-		$entryTranPaypalInput =& $input->getEntryTranPaypalInput();
-		// Paypal決済実行入力パラメータを取得
-		$execTranPaypalInput =& $input->getExecTranPaypalInput();
+    /**
+     * 例外を返す
+     *
+     * @return  GPayException 例外
+     */
+    public function &getException()
+    {
+        return $this->exception;
+    }
 
-		// Paypal取引登録・決済出力パラメータを生成
-		$output = new EntryExecTranPaypalOutput();
+    /**
+     * Paypal取引登録・決済を実行する
+     *
+     * @param EntryExecTranPaypalInput $input Paypal取引登録・決済入力パラメータ
+     * @return  EntryExecTranPaypalOutput Paypal取引登録・決済出力パラメータ
+     * @exception GPayException
+     */
+    public function exec(&$input)
+    {
+        // Paypal取引登録入力パラメータを取得
+        $entryTranPaypalInput =& $input->getEntryTranPaypalInput();
+        // Paypal決済実行入力パラメータを取得
+        $execTranPaypalInput =& $input->getExecTranPaypalInput();
 
-		// 取引ID、取引パスワードを取得
-		$accessId = $execTranPaypalInput->getAccessId();
-		$accessPass = $execTranPaypalInput->getAccessPass();
+        // Paypal取引登録・決済出力パラメータを生成
+        $output = new EntryExecTranPaypalOutput();
 
-		// 取引ID、取引パスワードが設定されていないとき
-		if (is_null($accessId) || 0 == strlen($accessId) || is_null($accessPass)) {
-			// コンビニ取引登録を実行
-			$this->log->debug("Paypal取引登録実行");
-			$entryTranPaypal = new EntryTranPaypal();
-			$entryTranPaypalOutput = $entryTranPaypal->exec($entryTranPaypalInput);
+        // 取引ID、取引パスワードを取得
+        $accessId = $execTranPaypalInput->getAccessId();
+        $accessPass = $execTranPaypalInput->getAccessPass();
 
-			if ($this->errorTrap($entryTranPaypal)) {
-				return $output;
-			}
+        // 取引ID、取引パスワードが設定されていないとき
+        if (is_null($accessId) || 0 == strlen($accessId) || is_null($accessPass)) {
+            // コンビニ取引登録を実行
+            $this->log->debug("Paypal取引登録実行");
+            $entryTranPaypal = new EntryTranPaypal();
+            $entryTranPaypalOutput = $entryTranPaypal->exec($entryTranPaypalInput);
 
-			// 取引ID、取引パスワードを決済実行用のパラメータに設定
-			$accessId = $entryTranPaypalOutput->getAccessId();
-			$accessPass = $entryTranPaypalOutput->getAccessPass();
-			$execTranPaypalInput->setAccessId($accessId);
-			$execTranPaypalInput->setAccessPass($accessPass);
+            if ($this->errorTrap($entryTranPaypal)) {
+                return $output;
+            }
 
-			$output->setEntryTranPaypalOutput($entryTranPaypalOutput);
-		}
+            // 取引ID、取引パスワードを決済実行用のパラメータに設定
+            $accessId = $entryTranPaypalOutput->getAccessId();
+            $accessPass = $entryTranPaypalOutput->getAccessPass();
+            $execTranPaypalInput->setAccessId($accessId);
+            $execTranPaypalInput->setAccessPass($accessPass);
 
-		$this->log->debug("取引ID : [$accessId]  取引パスワード : [$accessPass]");
+            $output->setEntryTranPaypalOutput($entryTranPaypalOutput);
+        }
 
-		// 取引登録でエラーが起きたとき決済を実行せずに戻る
-		if ($output->isEntryErrorOccurred()) {
-			$this->log->debug("<<<Paypal取引登録失敗>>>");
-			return $output;
-		}
+        $this->log->debug("取引ID : [$accessId]  取引パスワード : [$accessPass]");
 
-		// 決済実行
-		$this->log->debug("決済実行");
-		$execTranPaypal = new ExecTranPaypal();
-		$execTranPaypalOutput = $execTranPaypal->exec($execTranPaypalInput);
+        // 取引登録でエラーが起きたとき決済を実行せずに戻る
+        if ($output->isEntryErrorOccurred()) {
+            $this->log->debug("<<<Paypal取引登録失敗>>>");
+            return $output;
+        }
 
-		$output->setExecTranPaypalOutput($execTranPaypalOutput);
+        // 決済実行
+        $this->log->debug("決済実行");
+        $execTranPaypal = new ExecTranPaypal();
+        $execTranPaypalOutput = $execTranPaypal->exec($execTranPaypalInput);
 
-		$this->errorTrap($execTranPaypal);
+        $output->setExecTranPaypalOutput($execTranPaypalOutput);
 
-		return $output;
-	}
+        $this->errorTrap($execTranPaypal);
+
+        return $output;
+    }
 }

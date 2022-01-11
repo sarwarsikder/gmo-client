@@ -1,6 +1,5 @@
 <?php
 namespace GmoPG\com\gmo_pg\client\output;
-namespace GmoPG\com\gmo_pg\client\output;
 
 use GmoPG\com\gmo_pg\client\output\BaseOutput;
 

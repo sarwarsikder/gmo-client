@@ -1,7 +1,13 @@
 <?php
-require_once 'com/gmo_pg/client/output/EntryExecTranAuContinuanceOutput.php';
+namespace GmoPG\com\gmo_pg\client\tran;
+
+use GmoPG\com\gmo_pg\client\output\EntryExecTranAuContinuanceOutput;
+use GmoPG\com\gmo_pg\client\tran\EntryTranAuContinuance;
+use GmoPG\com\gmo_pg\client\tran\ExecTranAuContinuance;
+
+/*require_once 'com/gmo_pg/client/output/EntryExecTranAuContinuanceOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranAuContinuance.php';
-require_once 'com/gmo_pg/client/tran/ExecTranAuContinuance.php';
+require_once 'com/gmo_pg/client/tran/ExecTranAuContinuance.php';*/
 /**
  * <b>auかんたん決済継続課金登録・決済一括実行　実行クラス</b>
  *

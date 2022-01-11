@@ -1,4 +1,9 @@
 <?php
+namespace GmoPG\com\gmo_pg\client\tran;
+use GmoPG\com\gmo_pg\client\output\EntryExecTranLinepayOutput;
+use GmoPG\com\gmo_pg\client\tran\EntryTranLinepay;
+use GmoPG\com\gmo_pg\client\tran\ExecTranLinepay;
+
 require_once 'com/gmo_pg/client/output/EntryExecTranLinepayOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranLinepay.php';
 require_once 'com/gmo_pg/client/tran/ExecTranLinepay.php';
