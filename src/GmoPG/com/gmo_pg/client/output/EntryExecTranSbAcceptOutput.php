@@ -4,8 +4,8 @@ namespace GmoPG\com\gmo_pg\client\output;
 use GmoPG\com\gmo_pg\client\output\EntryTranSbAcceptOutput;
 use GmoPG\com\gmo_pg\client\output\ExecTranSbAcceptOutput;
 
-require_once 'com/gmo_pg/client/output/EntryTranSbAcceptOutput.php';
-require_once 'com/gmo_pg/client/output/ExecTranSbAcceptOutput.php';
+/*require_once 'com/gmo_pg/client/output/EntryTranSbAcceptOutput.php';
+require_once 'com/gmo_pg/client/output/ExecTranSbAcceptOutput.php';*/
 
 /**
  * <b>ソフトバンクまとめて支払い(Ｂ)(利用承諾)登録・決済一括実行  出力パラメータクラス</b>

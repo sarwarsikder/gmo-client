@@ -1,7 +1,13 @@
 <?php
+
 namespace GmoPG\com\gmo_pg\client\tran;
-require_once ('com/gmo_pg/client/output/SearchTradeOutput.php');
-require_once ('com/gmo_pg/client/tran/BaseTran.php');
+
+use GmoPG\com\gmo_pg\client\output\SearchTradeOutput;
+use GmoPG\com\gmo_pg\client\tran\BaseTran;
+
+/*require_once ('com/gmo_pg/client/output/SearchTradeOutput.php');
+require_once ('com/gmo_pg/client/tran/BaseTran.php');*/
+
 /**
  * <b>取引照会　実行クラス</b>
  *
@@ -12,33 +18,37 @@ require_once ('com/gmo_pg/client/tran/BaseTran.php');
  * @version 1.0
  * @created 01-01-2008 00:00:00
  */
-class SearchTrade extends BaseTran {
+class SearchTrade extends BaseTran
+{
 
-	/**
-	 * コンストラクタ
-	 */
-	public function __construct() {
-	    parent::__construct();
-	}
+    /**
+     * コンストラクタ
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
-	/**
-	 * 取引を照会する
-	 *
-	 * @param  SearchTradeInput $input    入力パラメータ
-	 * @return SearchTradeOutput 出力パラメータ
-	 */
-	public function exec(&$input) {
+    /**
+     * 取引を照会する
+     *
+     * @param SearchTradeInput $input 入力パラメータ
+     * @return SearchTradeOutput 出力パラメータ
+     */
+    public function exec(&$input)
+    {
         // プロトコル呼び出し・結果取得
         $resultMap = $this->callProtocol($input->toString());
 
         // 戻り値がnullの場合、nullを戻す
         if (is_null($resultMap)) {
-		    return null;
+            return null;
         }
 
-		// SearchTradeOutputを作成し、戻す
-		return new SearchTradeOutput($resultMap);
-	}
+        // SearchTradeOutputを作成し、戻す
+        return new SearchTradeOutput($resultMap);
+    }
 
 }
+
 ?>

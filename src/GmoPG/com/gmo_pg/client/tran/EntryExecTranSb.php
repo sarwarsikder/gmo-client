@@ -5,9 +5,9 @@ use GmoPG\com\gmo_pg\client\output\EntryExecTranSbOutput;
 use GmoPG\com\gmo_pg\client\tran\EntryTranSb;
 use GmoPG\com\gmo_pg\client\tran\ExecTranSb;
 
-require_once 'com/gmo_pg/client/output/EntryExecTranSbOutput.php';
+/*require_once 'com/gmo_pg/client/output/EntryExecTranSbOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranSb.php';
-require_once 'com/gmo_pg/client/tran/ExecTranSb.php';
+require_once 'com/gmo_pg/client/tran/ExecTranSb.php';*/
 
 /**
  * <b>ソフトバンクケータイ支払い登録・決済一括実行　実行クラス</b>

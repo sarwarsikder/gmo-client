@@ -1,10 +1,16 @@
 <?php
 namespace GmoPG\com\gmo_pg\client\tran;
 
-require_once('com/gmo_pg/client/common/Cryptgram.php');
+use GmoPG\com\gmo_pg\client\common\Cryptgram;
+use GmoPG\com\gmo_pg\client\common\GPayException;
+use GmoPG\com\gmo_pg\client\output\BankAccountEntryOutput;
+use GmoPG\com\gmo_pg\client\tran\BaseTran;
+
+
+/*require_once('com/gmo_pg/client/common/Cryptgram.php');
 require_once('com/gmo_pg/client/common/GPayException.php');
 require_once('com/gmo_pg/client/output/BankAccountEntryOutput.php');
-require_once('com/gmo_pg/client/tran/BaseTran.php');
+require_once('com/gmo_pg/client/tran/BaseTran.php');*/
 
 /**
  * <b>口振オンライン申し込み　実行クラス</b>
