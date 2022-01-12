@@ -4,9 +4,10 @@ namespace GmoPG\com\gmo_pg\client\tran;
 use GmoPG\com\gmo_pg\client\output\EntryExecTranSbContinuanceOutput;
 use GmoPG\com\gmo_pg\client\tran\EntryTranSbContinuance;
 use GmoPG\com\gmo_pg\client\tran\ExecTranSbContinuance;
-require_once 'com/gmo_pg/client/output/EntryExecTranSbContinuanceOutput.php';
+
+/*require_once 'com/gmo_pg/client/output/EntryExecTranSbContinuanceOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranSbContinuance.php';
-require_once 'com/gmo_pg/client/tran/ExecTranSbContinuance.php';
+require_once 'com/gmo_pg/client/tran/ExecTranSbContinuance.php';*/
 
 /**
  * <b>ソフトバンク継続登録・決済一括実行　実行クラス</b>

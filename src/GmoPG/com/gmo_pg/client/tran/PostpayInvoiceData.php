@@ -1,9 +1,16 @@
 <?php
 namespace GmoPG\com\gmo_pg\client\tran;
-require_once ('com/gmo_pg/client/common/Cryptgram.php');
+
+use GmoPG\com\gmo_pg\client\common\Cryptgram;
+use GmoPG\com\gmo_pg\client\common\GPayException;
+use GmoPG\com\gmo_pg\client\output\PostpayInvoiceDataOutput;
+use GmoPG\com\gmo_pg\client\tran\BaseTran;
+
+/*require_once ('com/gmo_pg/client/common/Cryptgram.php');
 require_once ('com/gmo_pg/client/common/GPayException.php');
 require_once ('com/gmo_pg/client/output/PostpayInvoiceDataOutput.php');
-require_once ('com/gmo_pg/client/tran/BaseTran.php');
+require_once ('com/gmo_pg/client/tran/BaseTran.php');*/
+
 /**
  * <b>PS後払い請求書印字データ取得　実行クラス</b>
  *
@@ -12,33 +19,37 @@ require_once ('com/gmo_pg/client/tran/BaseTran.php');
  * @see tranPackageInfo.php
  * @author GMO PaymentGateway
  */
-class PostpayInvoiceData extends BaseTran {
+class PostpayInvoiceData extends BaseTran
+{
 
-	/**
-	 * コンストラクタ
-	 */
-	public function __construct() {
-	    parent::__construct();
-	}
+    /**
+     * コンストラクタ
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
-	/**
-	 * 請求書印字データ取得を実行する
-	 *
-	 * @param  PostpayInvoiceDataInput $input  入力パラメータ
-	 * @return PostpayInvoiceDataOutput $output 出力パラメータ
-	 * @exception GPayException
-	 */
-	public function exec(&$input) {
+    /**
+     * 請求書印字データ取得を実行する
+     *
+     * @param PostpayInvoiceDataInput $input 入力パラメータ
+     * @return PostpayInvoiceDataOutput $output 出力パラメータ
+     * @exception GPayException
+     */
+    public function exec(&$input)
+    {
 
         // 接続しプロトコル呼び出し・結果取得
         $resultMap = $this->callProtocol($input->toString());
-	    // 戻り値がnullの場合、nullを戻す
+        // 戻り値がnullの場合、nullを戻す
         if (is_null($resultMap)) {
-		    return null;
+            return null;
         }
 
         // PostpayInvoiceDataOutput作成し、戻す
-	    return new PostpayInvoiceDataOutput($resultMap);
-	}
+        return new PostpayInvoiceDataOutput($resultMap);
+    }
 }
+
 ?>

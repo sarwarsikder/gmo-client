@@ -3,7 +3,7 @@ namespace GmoPG\com\gmo_pg\client\tran;
 
 use GmoPG\com\gmo_pg\client\common\Cryptgram;
 use GmoPG\com\gmo_pg\client\common\GPayException;
-use GmoPG\com\gmo_pg\client\common\GPayExceptionGPayException;
+use GmoPG\com\gmo_pg\client\output\InquiryTransferGANBOutput;
 use GmoPG\com\gmo_pg\client\tran\BaseTran;
 
 /*require_once('com/gmo_pg/client/common/Cryptgram.php');

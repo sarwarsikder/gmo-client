@@ -5,9 +5,9 @@ use GmoPG\com\gmo_pg\client\output\EntryExecTranMcpOutput;
 use GmoPG\com\gmo_pg\client\tran\EntryTranMcp;
 use GmoPG\com\gmo_pg\client\tran\ExecTranMcp;
 
-require_once 'com/gmo_pg/client/output/EntryExecTranMcpOutput.php';
+/*require_once 'com/gmo_pg/client/output/EntryExecTranMcpOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranMcp.php';
-require_once 'com/gmo_pg/client/tran/ExecTranMcp.php';
+require_once 'com/gmo_pg/client/tran/ExecTranMcp.php';*/
 
 /**
  * <b>多通貨クレジットカード登録・決済一括実行　実行クラス</b>

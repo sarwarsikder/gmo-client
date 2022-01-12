@@ -1,8 +1,16 @@
 <?php
-require_once ('com/gmo_pg/client/common/Cryptgram.php');
+namespace GmoPG\com\gmo_pg\client\tran;
+
+use GmoPG\com\gmo_pg\client\common\Cryptgram;
+use GmoPG\com\gmo_pg\client\common\GPayException;
+use GmoPG\com\gmo_pg\client\output\SearchAddressAmazonpayOutput;
+use GmoPG\com\gmo_pg\client\tran\BaseTran;
+
+/*require_once ('com/gmo_pg/client/common/Cryptgram.php');
 require_once ('com/gmo_pg/client/common/GPayException.php');
 require_once ('com/gmo_pg/client/output/SearchAddressAmazonpayOutput.php');
-require_once ('com/gmo_pg/client/tran/BaseTran.php');
+require_once ('com/gmo_pg/client/tran/BaseTran.php');*/
+
 /**
  * <b>Amazon Pay住所情報参照　実行クラス</b>
  *
@@ -11,33 +19,37 @@ require_once ('com/gmo_pg/client/tran/BaseTran.php');
  * @see tranPackageInfo.php
  * @author GMO PaymentGateway
  */
-class SearchAddressAmazonpay extends BaseTran {
+class SearchAddressAmazonpay extends BaseTran
+{
 
-	/**
-	 * コンストラクタ
-	 */
-	public function __construct() {
-	    parent::__construct();
-	}
+    /**
+     * コンストラクタ
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
-	/**
-	 * 住所情報参照を実行する
-	 *
-	 * @param  SearchAddressAmazonpayInput $input  入力パラメータ
-	 * @return SearchAddressAmazonpayOutput $output 出力パラメータ
-	 * @exception GPayException
-	 */
-	public function exec(&$input) {
+    /**
+     * 住所情報参照を実行する
+     *
+     * @param SearchAddressAmazonpayInput $input 入力パラメータ
+     * @return SearchAddressAmazonpayOutput $output 出力パラメータ
+     * @exception GPayException
+     */
+    public function exec(&$input)
+    {
 
         // 接続しプロトコル呼び出し・結果取得
         $resultMap = $this->callProtocol($input->toString());
-	    // 戻り値がnullの場合、nullを戻す
+        // 戻り値がnullの場合、nullを戻す
         if (is_null($resultMap)) {
-		    return null;
+            return null;
         }
 
         // SearchAddressAmazonpayOutput作成し、戻す
-	    return new SearchAddressAmazonpayOutput($resultMap);
-	}
+        return new SearchAddressAmazonpayOutput($resultMap);
+    }
 }
+
 ?>

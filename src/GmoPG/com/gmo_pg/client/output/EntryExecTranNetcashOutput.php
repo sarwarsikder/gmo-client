@@ -4,8 +4,8 @@ namespace GmoPG\com\gmo_pg\client\output;
 use GmoPG\com\gmo_pg\client\output\EntryTranNetcashOutput;
 use GmoPG\com\gmo_pg\client\output\ExecTranNetcashOutput;
 
-require_once 'com/gmo_pg/client/output/EntryTranNetcashOutput.php';
-require_once 'com/gmo_pg/client/output/ExecTranNetcashOutput.php';
+/*require_once 'com/gmo_pg/client/output/EntryTranNetcashOutput.php';
+require_once 'com/gmo_pg/client/output/ExecTranNetcashOutput.php';*/
 
 /**
  * <b>NET CASH登録・決済一括実行  出力パラメータクラス</b>

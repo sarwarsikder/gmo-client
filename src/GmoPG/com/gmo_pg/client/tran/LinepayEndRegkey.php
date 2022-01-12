@@ -6,10 +6,10 @@ use GmoPG\com\gmo_pg\client\common\GPayException;
 use GmoPG\com\gmo_pg\client\output\LinepayEndRegkeyOutput;
 use GmoPG\com\gmo_pg\client\tran\BaseTran;
 
-require_once('com/gmo_pg/client/common/Cryptgram.php');
+/*require_once('com/gmo_pg/client/common/Cryptgram.php');
 require_once('com/gmo_pg/client/common/GPayException.php');
 require_once('com/gmo_pg/client/output/LinepayEndRegkeyOutput.php');
-require_once('com/gmo_pg/client/tran/BaseTran.php');
+require_once('com/gmo_pg/client/tran/BaseTran.php');*/
 
 /**
  * <b>LINE Pay利用承諾終了　実行クラス</b>
