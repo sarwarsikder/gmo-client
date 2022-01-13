@@ -1,9 +1,9 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\common;
+namespace Kcsl\GmoClient\com\gmo_pg\client\common;
 
-use GmoPG\com\gmo_pg\client\common\Gmopg_Log;
-use GmoPG\com\gmo_pg\client\common\GPayException;
+use Kcsl\GmoClient\com\gmo_pg\client\common\Gmopg_Log;
+use Kcsl\GmoClient\com\gmo_pg\client\common\GPayException;
 
 /*require_once 'com/gmo_pg/client/common/Gmopg_Log.php';
 require_once 'com/gmo_pg/client/common/GPayException.php';*/

@@ -1,9 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranBankaccountOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranBankaccount;
-use GmoPG\com\gmo_pg\client\tran\ExecTranBankaccount;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranBankaccountOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranBankaccount;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranBankaccount;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranBankaccountOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranBankaccount.php';

@@ -1,6 +1,6 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\common;
+namespace Kcsl\GmoClient\com\gmo_pg\client\common;
 /**
  * <b>例外クラス</b>
  *

@@ -1,9 +1,9 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\input;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 
-use GmoPG\com\gmo_pg\client\input\EntryTranCvsInput;
-use GmoPG\com\gmo_pg\client\input\ExecTranCvsInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\EntryTranCvsInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\ExecTranCvsInput;
 
 /*require_once 'com/gmo_pg/client/input/EntryTranCvsInput.php';
 require_once 'com/gmo_pg/client/input/ExecTranCvsInput.php';*/

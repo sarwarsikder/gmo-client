@@ -1,6 +1,6 @@
 <?php
 
-namespace Kcsl\GmoClient\GmoPG\com\gmo_pg\client\common;
+namespace Kcsl\GmoClient\com\gmo_pg\client\common;
 
 /**
  * エラーメッセージハンドラ

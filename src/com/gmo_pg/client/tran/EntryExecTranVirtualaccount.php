@@ -1,9 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranVirtualaccountOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranVirtualaccount;
-use GmoPG\com\gmo_pg\client\tran\ExecTranVirtualaccount;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranVirtualaccountOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranVirtualaccount;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranVirtualaccount;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranVirtualaccountOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranVirtualaccount.php';

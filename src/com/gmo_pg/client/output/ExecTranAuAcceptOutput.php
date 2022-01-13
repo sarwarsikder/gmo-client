@@ -1,6 +1,6 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
-use GmoPG\com\gmo_pg\client\output\BaseOutput;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
+use Kcsl\GmoClient\com\gmo_pg\client\output\BaseOutput;
 
 /**
  * <b>auかんたん決済支払い（利用承諾）決済実行　出力パラメータクラス</b>

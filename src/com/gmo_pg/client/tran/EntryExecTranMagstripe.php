@@ -1,9 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranMagstripeOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTran;
-use GmoPG\com\gmo_pg\client\tran\ExecTranMagstripe;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranMagstripeOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTran;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranMagstripe;
 
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranMagstripeOutput.php';

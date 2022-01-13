@@ -1,9 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranAuAcceptOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranAuAccept;
-use GmoPG\com\gmo_pg\client\tran\ExecTranAuAccept;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranAuAcceptOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranAuAccept;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranAuAccept;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranAuAcceptOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranAuAccept.php';

@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\input;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 
-use GmoPG\com\gmo_pg\client\input\EntryTranSbAcceptInput;
-use GmoPG\com\gmo_pg\client\input\ExecTranSbAcceptInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\EntryTranSbAcceptInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\ExecTranSbAcceptInput;
 
 /*require_once 'com/gmo_pg/client/input/EntryTranSbAcceptInput.php';
 require_once 'com/gmo_pg/client/input/ExecTranSbAcceptInput.php';*/

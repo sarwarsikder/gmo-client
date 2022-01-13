@@ -1,9 +1,9 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\EntryTranAuContinuanceOutput;
-use GmoPG\com\gmo_pg\client\output\ExecTranAuContinuanceOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryTranAuContinuanceOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ExecTranAuContinuanceOutput;
 
 /*
 require_once 'com/gmo_pg/client/output/EntryTranAuContinuanceOutput.php';

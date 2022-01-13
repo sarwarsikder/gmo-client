@@ -1,9 +1,9 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\input;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 
-use GmoPG\com\gmo_pg\client\input\EntryTranEdyInput;
-use GmoPG\com\gmo_pg\client\input\ExecTranEdyInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\EntryTranEdyInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\ExecTranEdyInput;
 
 /*require_once 'com/gmo_pg/client/input/EntryTranEdyInput.php';
 require_once 'com/gmo_pg/client/input/ExecTranEdyInput.php';*/

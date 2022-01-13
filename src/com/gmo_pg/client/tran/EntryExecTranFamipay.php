@@ -1,9 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranFamipayOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranFamipay;
-use GmoPG\com\gmo_pg\client\tran\ExecTranFamipay;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranFamipayOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranFamipay;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranFamipay;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranFamipayOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranFamipay.php';

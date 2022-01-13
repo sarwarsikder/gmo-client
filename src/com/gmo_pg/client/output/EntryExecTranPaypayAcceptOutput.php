@@ -1,7 +1,7 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
-use GmoPG\com\gmo_pg\client\output\EntryTranPaypayAcceptOutput;
-use GmoPG\com\gmo_pg\client\output\ExecTranPaypayAcceptOutput;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryTranPaypayAcceptOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ExecTranPaypayAcceptOutput;
 
 /*require_once 'com/gmo_pg/client/output/EntryTranPaypayAcceptOutput.php';
 require_once 'com/gmo_pg/client/output/ExecTranPaypayAcceptOutput.php';*/

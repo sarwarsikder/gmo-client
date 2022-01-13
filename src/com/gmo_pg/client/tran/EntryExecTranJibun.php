@@ -1,9 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranJibunOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranJibun;
-use GmoPG\com\gmo_pg\client\tran\ExecTranJibun;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranJibunOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranJibun;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranJibun;
 
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranJibunOutput.php';

@@ -1,7 +1,8 @@
 <?php
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 
-use GmoPG\com\gmo_pg\client\input\EntryTranAuAcceptInput;
-use GmoPG\com\gmo_pg\client\input\ExecTranAuAcceptInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\EntryTranAuAcceptInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\ExecTranAuAcceptInput;
 
 /*require_once 'com/gmo_pg/client/input/EntryTranAuAcceptInput.php';
 require_once 'com/gmo_pg/client/input/ExecTranAuAcceptInput.php';*/

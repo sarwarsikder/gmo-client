@@ -1,9 +1,9 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\EntryTranPaypalOutput;
-use GmoPG\com\gmo_pg\client\output\ExecTranPaypalOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryTranPaypalOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ExecTranPaypalOutput;
 
 /*require_once 'com/gmo_pg/client/output/EntryTranPaypalOutput.php';
 require_once 'com/gmo_pg/client/output/ExecTranPaypalOutput.php';*/

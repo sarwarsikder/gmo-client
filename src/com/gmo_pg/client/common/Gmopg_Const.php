@@ -1,5 +1,5 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\common;
+namespace Kcsl\GmoClient\com\gmo_pg\client\common;
 /**
  * 汎用定数定義
  *

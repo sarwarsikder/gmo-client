@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\EntryTranJcbPrecaOutput;
-use GmoPG\com\gmo_pg\client\output\ExecTranJcbPrecaOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryTranJcbPrecaOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ExecTranJcbPrecaOutput;
 
 /*require_once 'com/gmo_pg/client/output/EntryTranJcbPrecaOutput.php';
 require_once 'com/gmo_pg/client/output/ExecTranJcbPrecaOutput.php';*/

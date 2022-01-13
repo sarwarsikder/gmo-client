@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\EntryTranJibunOutput;
-use GmoPG\com\gmo_pg\client\output\ExecTranJibunOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryTranJibunOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ExecTranJibunOutput;
 
 /*require_once 'com/gmo_pg/client/output/EntryTranJibunOutput.php';
 require_once 'com/gmo_pg/client/output/ExecTranJibunOutput.php';*/

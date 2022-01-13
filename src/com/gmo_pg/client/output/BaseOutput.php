@@ -1,8 +1,8 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\common\ParamParser;
+use Kcsl\GmoClient\com\gmo_pg\client\common\ParamParser;
 
 /*require_once 'com/gmo_pg/client/common/ParamParser.php';*/
 

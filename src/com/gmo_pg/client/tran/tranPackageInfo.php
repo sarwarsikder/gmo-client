@@ -1,6 +1,6 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 /**
  * パッケージ tran
  *

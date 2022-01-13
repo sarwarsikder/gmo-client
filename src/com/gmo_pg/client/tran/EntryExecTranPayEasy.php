@@ -1,14 +1,14 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranPayEasyOutput;
-use GmoPG\com\gmo_pg\client\input\TdVerifyInput;
-use GmoPG\com\gmo_pg\client\input\AcsParam;
-use GmoPG\com\gmo_pg\client\tran\EntryTranPayEasy;
-use GmoPG\com\gmo_pg\client\tran\ExecTranPayEasy;
-use GmoPG\com\gmo_pg\client\tran\TdVerify;
-use GmoPG\com\gmo_pg\client\common\RedirectUtil;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranPayEasyOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\TdVerifyInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\AcsParam;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranPayEasy;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranPayEasy;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\TdVerify;
+use Kcsl\GmoClient\com\gmo_pg\client\common\RedirectUtil;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranPayEasyOutput.php';
 require_once 'com/gmo_pg/client/input/TdVerifyInput.php';

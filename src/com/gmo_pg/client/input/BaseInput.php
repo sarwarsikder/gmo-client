@@ -1,9 +1,9 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\input;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 
-use GmoPG\com\gmo_pg\client\common\Gmopg_Log;
-use GmoPG\com\gmo_pg\client\common\IgnoreCaseMap;
+use Kcsl\GmoClient\com\gmo_pg\client\common\Gmopg_Log;
+use Kcsl\GmoClient\com\gmo_pg\client\common\IgnoreCaseMap;
 
 /*require_once 'com/gmo_pg/client/common/Gmopg_Log.php';
 require_once 'com/gmo_pg/client/common/IgnoreCaseMap.php';*/

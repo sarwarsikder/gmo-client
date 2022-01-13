@@ -1,5 +1,5 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 require_once 'com/gmo_pg/client/output/EntryTranVirtualaccountOutput.php';
 require_once 'com/gmo_pg/client/output/ExecTranVirtualaccountOutput.php';
 /**

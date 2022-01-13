@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\EntryTranAuAcceptOutput;
-use GmoPG\com\gmo_pg\client\output\ExecTranAuAcceptOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryTranAuAcceptOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ExecTranAuAcceptOutput;
 
 /*
 require_once 'com/gmo_pg/client/output/EntryTranAuAcceptOutput.php';

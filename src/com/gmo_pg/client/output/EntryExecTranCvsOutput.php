@@ -1,9 +1,9 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\EntryTranCvsOutput;
-use GmoPG\com\gmo_pg\client\output\ExecTranCvsOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryTranCvsOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ExecTranCvsOutput;
 
 /*require_once 'com/gmo_pg/client/output/EntryTranCvsOutput.php';
 require_once 'com/gmo_pg/client/output/ExecTranCvsOutput.php';*/

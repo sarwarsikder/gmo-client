@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\EntryTranDccOutput;
-use GmoPG\com\gmo_pg\client\output\ExecTranDccOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryTranDccOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ExecTranDccOutput;
 
 /*require_once 'com/gmo_pg/client/output/EntryTranDccOutput.php';
 require_once 'com/gmo_pg/client/output/ExecTranDccOutput.php';*/

@@ -1,7 +1,7 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\input;
-use GmoPG\com\gmo_pg\client\input\EntryTranGANBInput;
-use GmoPG\com\gmo_pg\client\input\ExecTranGANBInput;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
+use Kcsl\GmoClient\com\gmo_pg\client\input\EntryTranGANBInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\ExecTranGANBInput;
 
 /*require_once 'com/gmo_pg/client/input/EntryTranGANBInput.php';
 require_once 'com/gmo_pg/client/input/ExecTranGANBInput.php';*/

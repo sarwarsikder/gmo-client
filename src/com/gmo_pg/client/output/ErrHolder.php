@@ -1,6 +1,6 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 /**
  * <b>出力エラー情報クラス</b>
  *

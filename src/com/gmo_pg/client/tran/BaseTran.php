@@ -1,12 +1,12 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\common\Gmopg_Log;
-use GmoPG\com\gmo_pg\client\common\ParamParser;
-use GmoPG\com\gmo_pg\client\common\IgnoreCaseMap;
-use GmoPG\com\gmo_pg\client\common\GPayException;
-use GmoPG\com\gmo_pg\client\common\ConnectUrlMap;
+use Kcsl\GmoClient\com\gmo_pg\client\common\Gmopg_Log;
+use Kcsl\GmoClient\com\gmo_pg\client\common\ParamParser;
+use Kcsl\GmoClient\com\gmo_pg\client\common\IgnoreCaseMap;
+use Kcsl\GmoClient\com\gmo_pg\client\common\GPayException;
+use Kcsl\GmoClient\com\gmo_pg\client\common\ConnectUrlMap;
 
 /*require_once 'com/gmo_pg/client/common/Gmopg_Log.php';
 require_once 'com/gmo_pg/client/common/ParamParser.php';

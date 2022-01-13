@@ -1,8 +1,8 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\input;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 
-use GmoPG\com\gmo_pg\client\input\BaseInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\BaseInput;
 
 #require_once 'com/gmo_pg/client/input/BaseInput.php';
 /**

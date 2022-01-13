@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\EntryTranBankaccountOutput;
-use GmoPG\com\gmo_pg\client\output\ExecTranBankaccountOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryTranBankaccountOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ExecTranBankaccountOutput;
 
 /*require_once 'com/gmo_pg/client/output/EntryTranBankaccountOutput.php';
 require_once 'com/gmo_pg/client/output/ExecTranBankaccountOutput.php';*/

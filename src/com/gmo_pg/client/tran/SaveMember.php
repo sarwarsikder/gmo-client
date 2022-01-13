@@ -1,9 +1,9 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\SaveMemberOutput;
-use GmoPG\com\gmo_pg\client\tran\BaseTran;
+use Kcsl\GmoClient\com\gmo_pg\client\output\SaveMemberOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\BaseTran;
 
 /*require_once ('com/gmo_pg/client/output/SaveMemberOutput.php');
 require_once ('com/gmo_pg/client/tran/BaseTran.php');*/

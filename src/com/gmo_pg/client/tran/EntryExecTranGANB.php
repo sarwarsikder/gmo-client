@@ -1,9 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranGANBOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranGANB;
-use GmoPG\com\gmo_pg\client\tran\ExecTranGANB;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranGANBOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranGANB;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranGANB;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranGANBOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranGANB.php';

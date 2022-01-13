@@ -1,9 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranDocomoOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranDocomo;
-use GmoPG\com\gmo_pg\client\tran\ExecTranDocomo;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranDocomoOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranDocomo;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranDocomo;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranDocomoOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranDocomo.php';

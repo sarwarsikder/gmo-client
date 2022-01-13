@@ -1,9 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranBrandtokenOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranBrandtoken;
-use GmoPG\com\gmo_pg\client\tran\ExecTranBrandtoken;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranBrandtokenOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranBrandtoken;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranBrandtoken;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranBrandtokenOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranBrandtoken.php';

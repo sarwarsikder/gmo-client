@@ -1,9 +1,9 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\SearchMemberOutput;
-use GmoPG\com\gmo_pg\client\tran\BaseTran;
+use Kcsl\GmoClient\com\gmo_pg\client\output\SearchMemberOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\BaseTran;
 
 /*require_once ('com/gmo_pg/client/output/SearchMemberOutput.php');
 require_once ('com/gmo_pg/client/tran/BaseTran.php');*/

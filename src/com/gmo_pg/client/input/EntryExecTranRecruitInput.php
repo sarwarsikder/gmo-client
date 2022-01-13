@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\input;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 
-use GmoPG\com\gmo_pg\client\input\EntryTranRecruitInput;
-use GmoPG\com\gmo_pg\client\input\ExecTranRecruitInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\EntryTranRecruitInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\ExecTranRecruitInput;
 
 /*require_once 'com/gmo_pg/client/input/EntryTranRecruitInput.php';
 require_once 'com/gmo_pg/client/input/ExecTranRecruitInput.php';*/

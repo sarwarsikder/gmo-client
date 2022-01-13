@@ -1,10 +1,10 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranWebmoneyOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranWebmoney;
-use GmoPG\com\gmo_pg\client\tran\ExecTranWebmoney;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranWebmoneyOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranWebmoney;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranWebmoney;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranWebmoneyOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranWebmoney.php';

@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\EntryTranSbAcceptOutput;
-use GmoPG\com\gmo_pg\client\output\ExecTranSbAcceptOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryTranSbAcceptOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ExecTranSbAcceptOutput;
 
 /*require_once 'com/gmo_pg/client/output/EntryTranSbAcceptOutput.php';
 require_once 'com/gmo_pg/client/output/ExecTranSbAcceptOutput.php';*/

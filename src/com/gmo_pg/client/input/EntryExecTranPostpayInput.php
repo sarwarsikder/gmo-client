@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\input;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 
-use GmoPG\com\gmo_pg\client\input\EntryTranPostpayInput;
-use GmoPG\com\gmo_pg\client\input\ExecTranPostpayInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\EntryTranPostpayInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\ExecTranPostpayInput;
 
 /*require_once 'com/gmo_pg/client/input/EntryTranPostpayInput.php';
 require_once 'com/gmo_pg/client/input/ExecTranPostpayInput.php';*/

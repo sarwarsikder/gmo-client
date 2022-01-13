@@ -1,7 +1,7 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\BaseOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\BaseOutput;
 /*require_once ('com/gmo_pg/client/output/BaseOutput.php');*/
 /**
  * <b>多通貨クレジット決済（DCC)認証後決済実行　出力パラメータクラス</b>

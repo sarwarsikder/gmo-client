@@ -1,7 +1,7 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\BaseOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\BaseOutput;
 /**
  * <b>ドコモ継続決済　継続課金変更(加盟店)　出力パラメータクラス</b>
  *

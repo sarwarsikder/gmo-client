@@ -1,9 +1,9 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\input;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 
-use GmoPG\com\gmo_pg\client\input\EntryTranPaypalInput;
-use GmoPG\com\gmo_pg\client\input\ExecTranPaypalInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\EntryTranPaypalInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\ExecTranPaypalInput;
 
 /*require_once 'com/gmo_pg/client/input/EntryTranPaypalInput.php';
 require_once 'com/gmo_pg/client/input/ExecTranPaypalInput.php';*/

@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\EntryTranAmazonpayOutput;
-use GmoPG\com\gmo_pg\client\output\ExecTranAmazonpayOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryTranAmazonpayOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ExecTranAmazonpayOutput;
 
 
 /*require_once 'com/gmo_pg/client/output/EntryTranAmazonpayOutput.php';

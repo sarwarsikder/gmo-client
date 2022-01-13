@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\input;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 
-use GmoPG\com\gmo_pg\client\input\EntryTranDocomoInput;
-use GmoPG\com\gmo_pg\client\input\ExecTranDocomoInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\EntryTranDocomoInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\ExecTranDocomoInput;
 
 /*require_once 'com/gmo_pg/client/input/EntryTranDocomoInput.php';
 require_once 'com/gmo_pg/client/input/ExecTranDocomoInput.php';*/

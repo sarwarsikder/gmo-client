@@ -1,8 +1,9 @@
 <?php
-namespace  GmoPG\com\gmo_pg\client\common;
+namespace  Kcsl\GmoClient\com\gmo_pg\client\common;
 
-use GmoPG\com\gmo_pg\client\common\GPayException;
-use GmoPG\com\gmo_pg\client\common\ConnectUrlMap;
+use Kcsl\GmoClient\com\gmo_pg\client\common\GPayException;
+
+use Kcsl\GmoClient\com\gmo_pg\client\common\ConnectUrlMap;
 
 /*require_once 'com/gmo_pg/client/common/GPayException.php';
 require_once 'com/gmo_pg/client/common/ConnectUrlMap.php';*/

@@ -1,9 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranNetcashOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranNetcash;
-use GmoPG\com\gmo_pg\client\tran\ExecTranNetcash;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranNetcashOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranNetcash;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranNetcash;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranNetcashOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranNetcash.php';

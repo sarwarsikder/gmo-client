@@ -1,11 +1,11 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\common\Cryptgram;
-use GmoPG\com\gmo_pg\client\common\GPayException;
-use GmoPG\com\gmo_pg\client\output\ChargePrecaOutput;
-use GmoPG\com\gmo_pg\client\tran\BaseTran;
+use Kcsl\GmoClient\com\gmo_pg\client\common\Cryptgram;
+use Kcsl\GmoClient\com\gmo_pg\client\common\GPayException;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ChargePrecaOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\BaseTran;
 
 /*require_once ('com/gmo_pg/client/common/Cryptgram.php');
 require_once ('com/gmo_pg/client/common/GPayException.php');

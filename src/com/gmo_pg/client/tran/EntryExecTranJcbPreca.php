@@ -1,9 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranJcbPrecaOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranJcbPreca;
-use GmoPG\com\gmo_pg\client\tran\ExecTranJcbPreca;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranJcbPrecaOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranJcbPreca;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranJcbPreca;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranJcbPrecaOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranJcbPreca.php';

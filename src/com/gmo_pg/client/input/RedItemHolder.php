@@ -1,6 +1,6 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\input;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 /**
  * <b>不正防止実行　入力パラメータ商品情報クラス（汎用版）</b>
  *

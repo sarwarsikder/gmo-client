@@ -1,10 +1,10 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranPaypalOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranPaypal;
-use GmoPG\com\gmo_pg\client\tran\ExecTranPaypal;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranPaypalOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranPaypal;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranPaypal;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranPaypalOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranPaypal.php';

@@ -1,9 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranAmazonpayOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranAmazonpay;
-use GmoPG\com\gmo_pg\client\tran\ExecTranAmazonpay;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranAmazonpayOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranAmazonpay;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranAmazonpay;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranAmazonpayOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranAmazonpay.php';

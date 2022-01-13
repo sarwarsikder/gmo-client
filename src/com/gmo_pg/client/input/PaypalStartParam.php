@@ -1,6 +1,6 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\input;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 /**
  * <b>Paypalリダイレクトページ生成用パラメータホルダー</b>
  *

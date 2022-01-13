@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\EntryTranWebmoneyOutput;
-use GmoPG\com\gmo_pg\client\output\ExecTranWebmoneyQuickOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryTranWebmoneyOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ExecTranWebmoneyQuickOutput;
 
 /*require_once 'com/gmo_pg/client/output/EntryTranWebmoneyOutput.php';
 require_once 'com/gmo_pg/client/output/ExecTranWebmoneyQuickOutput.php';*/

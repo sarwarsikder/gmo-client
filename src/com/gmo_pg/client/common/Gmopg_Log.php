@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\common;
+namespace Kcsl\GmoClient\com\gmo_pg\client\common;
 /*require_once('com/gmo_pg/client/common/LogFormatter.php');*/
 
-use GmoPG\com\gmo_pg\client\common\LogFormatter;
+use Kcsl\GmoClient\com\gmo_pg\client\common\LogFormatter;
 
 /**
  * <b>独自ログクラス</b>

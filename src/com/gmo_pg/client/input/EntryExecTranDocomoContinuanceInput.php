@@ -1,8 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\input;
 
-use GmoPG\com\gmo_pg\client\input\EntryTranDocomoContinuanceInput;
-use GmoPG\com\gmo_pg\client\input\ExecTranDocomoContinuanceInput;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
+
+use Kcsl\GmoClient\com\gmo_pg\client\input\EntryTranDocomoContinuanceInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\ExecTranDocomoContinuanceInput;
 
 /*require_once 'com/gmo_pg/client/input/EntryTranDocomoContinuanceInput.php';
 require_once 'com/gmo_pg/client/input/ExecTranDocomoContinuanceInput.php';*/

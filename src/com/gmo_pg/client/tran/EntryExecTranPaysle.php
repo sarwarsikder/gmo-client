@@ -1,9 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranPaysleOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranPaysle;
-use GmoPG\com\gmo_pg\client\tran\ExecTranPaysle;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranPaysleOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranPaysle;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranPaysle;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranPaysleOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranPaysle.php';

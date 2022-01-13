@@ -1,7 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\input;
-use GmoPG\com\gmo_pg\client\input\EntryTranJcbPrecaInput;
-use GmoPG\com\gmo_pg\client\input\ExecTranJcbPrecaInput;
+
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
+use Kcsl\GmoClient\com\gmo_pg\client\input\EntryTranJcbPrecaInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\ExecTranJcbPrecaInput;
 
 /*require_once 'com/gmo_pg/client/input/EntryTranJcbPrecaInput.php';
 require_once 'com/gmo_pg/client/input/ExecTranJcbPrecaInput.php';*/

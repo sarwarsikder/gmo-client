@@ -1,6 +1,6 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
-use GmoPG\com\gmo_pg\client\output\BaseOutput;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
+use Kcsl\GmoClient\com\gmo_pg\client\output\BaseOutput;
 
 /*require_once ('com/gmo_pg/client/output/BaseOutput.php');*/
 

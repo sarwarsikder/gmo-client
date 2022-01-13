@@ -1,9 +1,9 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranRakutenIdOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranRakutenId;
-use GmoPG\com\gmo_pg\client\tran\ExecTranRakutenId;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranRakutenIdOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranRakutenId;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranRakutenId;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranRakutenIdOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranRakutenId.php';

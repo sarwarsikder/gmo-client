@@ -1,10 +1,10 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranAuOutput;
-use GmoPG\com\gmo_pg\client\tran\EntryTranAu;
-use GmoPG\com\gmo_pg\client\tran\ExecTranAu;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranAuOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTranAu;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTranAu;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranAuOutput.php';
 require_once 'com/gmo_pg/client/tran/EntryTranAu.php';

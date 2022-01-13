@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\input;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 
-use GmoPG\com\gmo_pg\client\input\EntryTranBrandtokenInput;
-use GmoPG\com\gmo_pg\client\input\ExecTranBrandtokenInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\EntryTranBrandtokenInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\ExecTranBrandtokenInput;
 
 /*require_once 'com/gmo_pg/client/input/EntryTranBrandtokenInput.php';
 require_once 'com/gmo_pg/client/input/ExecTranBrandtokenInput.php';*/

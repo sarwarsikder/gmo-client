@@ -1,14 +1,14 @@
 <?php
 
-namespace GmoPG\com\gmo_pg\client\tran;
+namespace Kcsl\GmoClient\com\gmo_pg\client\tran;
 
-use GmoPG\com\gmo_pg\client\output\EntryExecTranOutput;
-use GmoPG\com\gmo_pg\client\input\TdVerifyInput;
-use GmoPG\com\gmo_pg\client\input\AcsParam;
-use GmoPG\com\gmo_pg\client\tran\EntryTran;
-use GmoPG\com\gmo_pg\client\tran\ExecTran;
-use GmoPG\com\gmo_pg\client\tran\TdVerify;
-use GmoPG\com\gmo_pg\client\tran\RedirectUtil;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryExecTranOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\TdVerifyInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\AcsParam;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\EntryTran;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\ExecTran;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\TdVerify;
+use Kcsl\GmoClient\com\gmo_pg\client\tran\RedirectUtil;
 
 /*require_once 'com/gmo_pg/client/output/EntryExecTranOutput.php';
 require_once 'com/gmo_pg/client/input/TdVerifyInput.php';

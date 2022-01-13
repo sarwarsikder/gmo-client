@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\input;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 
-use GmoPG\com\gmo_pg\client\input\EntryTranVirtualaccountInput;
-use GmoPG\com\gmo_pg\client\input\ExecTranVirtualaccountInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\EntryTranVirtualaccountInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\ExecTranVirtualaccountInput;
 
 /*require_once 'com/gmo_pg/client/input/EntryTranVirtualaccountInput.php';
 require_once 'com/gmo_pg/client/input/ExecTranVirtualaccountInput.php';*/

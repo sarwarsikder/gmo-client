@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\input;
+namespace Kcsl\GmoClient\com\gmo_pg\client\input;
 
-use GmoPG\com\gmo_pg\client\input\EntryTranWebmoneyInput;
-use GmoPG\com\gmo_pg\client\input\ExecTranWebmoneyQuickInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\EntryTranWebmoneyInput;
+use Kcsl\GmoClient\com\gmo_pg\client\input\ExecTranWebmoneyQuickInput;
 
 /*require_once 'com/gmo_pg/client/input/EntryTranWebmoneyInput.php';
 require_once 'com/gmo_pg/client/input/ExecTranWebmoneyQuickInput.php';*/

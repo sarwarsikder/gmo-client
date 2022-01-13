@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\EntryTranSbContinuanceOutput;
-use GmoPG\com\gmo_pg\client\output\ExecTranSbContinuanceOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryTranSbContinuanceOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ExecTranSbContinuanceOutput;
 
 /*require_once 'com/gmo_pg/client/output/EntryTranSbContinuanceOutput.php';
 require_once 'com/gmo_pg/client/output/ExecTranSbContinuanceOutput.php';*/

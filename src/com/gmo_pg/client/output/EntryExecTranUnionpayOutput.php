@@ -1,8 +1,8 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\output;
+namespace Kcsl\GmoClient\com\gmo_pg\client\output;
 
-use GmoPG\com\gmo_pg\client\output\EntryTranUnionpayOutput;
-use GmoPG\com\gmo_pg\client\output\ExecTranUnionpayOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\EntryTranUnionpayOutput;
+use Kcsl\GmoClient\com\gmo_pg\client\output\ExecTranUnionpayOutput;
 
 /*require_once 'com/gmo_pg/client/output/EntryTranUnionpayOutput.php';
 require_once 'com/gmo_pg/client/output/ExecTranUnionpayOutput.php';*/
