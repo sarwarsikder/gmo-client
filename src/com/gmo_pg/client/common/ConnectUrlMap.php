@@ -1,5 +1,6 @@
 <?php
-namespace GmoPG\com\gmo_pg\client\common;
+namespace Kcsl\GmoClient\com\gmo_pg\client\common;
+
 
 /*require_once 'com/gmo_pg/client/common/IgnoreCaseMap.php';
 require_once 'com/gmo_pg/client/common/Gmopg_Log.php';*/
